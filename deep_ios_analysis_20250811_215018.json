@@ -1,0 +1,200 @@
+{
+  "timestamp": "2025-08-11T21:50:18.201901",
+  "binary_path": "ios_app_extracted/Payload/BlueStar.app/BlueStar",
+  "pattern_analysis": {
+    "mqtt_topics": [
+      {
+        "pattern": "get",
+        "match": "LGeT"
+      }
+    ],
+    "aws_iot": [
+      {
+        "pattern": "iot",
+        "match": "lIoT"
+      }
+    ],
+    "control_commands": [
+      {
+        "pattern": "fan",
+        "match": "o>FFan"
+      },
+      {
+        "pattern": "fan",
+        "match": "FANk"
+      },
+      {
+        "pattern": "set",
+        "match": "!jSet"
+      },
+      {
+        "pattern": "set",
+        "match": "set8A"
+      },
+      {
+        "pattern": "get",
+        "match": "LGeT"
+      }
+    ],
+    "bluestar_specific": [
+      {
+        "pattern": "ac",
+        "match": "7^/AC"
+      },
+      {
+        "pattern": "ac",
+        "match": ">aci"
+      },
+      {
+        "pattern": "ac",
+        "match": "bwacfi"
+      },
+      {
+        "pattern": "ac",
+        "match": "@Ac_"
+      },
+      {
+        "pattern": "ac",
+        "match": "!VaC"
+      },
+      {
+        "pattern": "ac",
+        "match": "aC'8"
+      },
+      {
+        "pattern": "ac",
+        "match": "PAcYT}O"
+      },
+      {
+        "pattern": "ac",
+        "match": "eACVc"
+      },
+      {
+        "pattern": "ac",
+        "match": "*ace"
+      },
+      {
+        "pattern": "ac",
+        "match": "9ac?a4]"
+      },
+      {
+        "pattern": "ac",
+        "match": "+%aC"
+      },
+      {
+        "pattern": "ac",
+        "match": "b6aC"
+      },
+      {
+        "pattern": "ac",
+        "match": "aCmx\""
+      },
+      {
+        "pattern": "ac",
+        "match": "AcU}"
+      },
+      {
+        "pattern": "ac",
+        "match": "XaC\"Y"
+      },
+      {
+        "pattern": "ac",
+        "match": "4Ac:"
+      },
+      {
+        "pattern": "ac",
+        "match": "ACxS"
+      },
+      {
+        "pattern": "ac",
+        "match": "(ZAC"
+      },
+      {
+        "pattern": "ac",
+        "match": ")aCVa!Sp"
+      },
+      {
+        "pattern": "ac",
+        "match": "eW'QVNAC"
+      },
+      {
+        "pattern": "ac",
+        "match": "FAc+"
+      },
+      {
+        "pattern": "ac",
+        "match": "4Ac>+z"
+      },
+      {
+        "pattern": "ac",
+        "match": "5ACV9"
+      },
+      {
+        "pattern": "ac",
+        "match": "aCLb"
+      },
+      {
+        "pattern": "ac",
+        "match": "ACrI"
+      },
+      {
+        "pattern": "ac",
+        "match": "aC]9!"
+      },
+      {
+        "pattern": "ac",
+        "match": "ACg]~"
+      },
+      {
+        "pattern": "ac",
+        "match": "Ey7ac"
+      },
+      {
+        "pattern": "ac",
+        "match": "7acI"
+      },
+      {
+        "pattern": "ac",
+        "match": "gPOaCJN"
+      },
+      {
+        "pattern": "ac",
+        "match": "%4Ac-"
+      },
+      {
+        "pattern": "ac",
+        "match": "qacX"
+      },
+      {
+        "pattern": "ac",
+        "match": "AacY`"
+      },
+      {
+        "pattern": "ac",
+        "match": "0aCS"
+      },
+      {
+        "pattern": "ac",
+        "match": "%\"aCkcZ"
+      },
+      {
+        "pattern": "ac",
+        "match": "ACSQ"
+      },
+      {
+        "pattern": "ac",
+        "match": "AC5L"
+      },
+      {
+        "pattern": "ac",
+        "match": "aC]X#"
+      }
+    ]
+  },
+  "summary": {
+    "total_mqtt_matches": 1,
+    "total_aws_matches": 1,
+    "total_control_matches": 5,
+    "total_bluestar_matches": 38
+  }
+}

@@ -1,0 +1,61 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            ## What's New
+            
+            This release includes:
+            - Full Bluestar AC control integration
+            - Climate, fan, and switch entities
+            - AWS IoT MQTT communication
+            - Easy configuration flow
+            
+            ## Installation
+            
+            ### HACS (Recommended)
+            1. Add this repository to HACS
+            2. Install "Bluestar AC" integration
+            3. Configure with your credentials
+            
+            ### Manual
+            1. Download the release
+            2. Copy to custom_components
+            3. Restart Home Assistant
+            
+            ## Configuration
+            
+            - Username/Phone: Your Bluestar account
+            - Password: Your Bluestar account password
+            - Device ID: Your AC's device ID
+            - Auth Type: bluestar (default)
+          
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Assets
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./custom_components/bluestar_ac
+          asset_name: bluestar_ac_integration
+          asset_content_type: application/zip

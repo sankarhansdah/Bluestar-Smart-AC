@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Bluestar AC Configuration",
+                "description": "Enter your Bluestar AC credentials and device information.",
+                "data": {
+                    "username": "Username/Phone Number",
+                    "password": "Password",
+                    "device_id": "Device ID",
+                    "auth_type": "Authentication Type"
+                }
+            }
+        },
+        "error": {
+            "connection_failed": "Failed to connect to Bluestar AC. Please check your credentials and device ID.",
+            "unknown": "An unexpected error occurred."
+        },
+        "abort": {
+            "already_configured": "Device is already configured."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Bluestar AC Options",
+                "data": {
+                    "auth_type": "Authentication Type"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Bluestar AC",
+  "render_readme": true,
+  "domains": ["climate", "fan", "switch"],
+  "homeassistant": "2023.8.0",
+  "iot_class": "Cloud Polling"
+}
+

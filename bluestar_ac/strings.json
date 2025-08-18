@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bluestar AC Configuration",
+        "description": "Enter your Bluestar Smart AC credentials",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "region": "Region"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate",
+        "description": "Please enter your new password",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication",
+      "no_devices": "No devices found",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "reauth_successful": "Re-authentication successful"
+    }
+  }
+}
+
+
+

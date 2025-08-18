@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-08-11T21:48:59.724863",
+  "binary_path": "ios_app_extracted/Payload/BlueStar.app/BlueStar",
+  "mqtt_strings": [
+    "tkQOs",
+    "IgqOS"
+  ],
+  "bluestar_strings": [
+    "7^/AC",
+    ">aci",
+    "bwacfi",
+    "@Ac_",
+    "!VaC",
+    "aC'8",
+    "PAcYT}O",
+    "eACVc",
+    "*ace",
+    "o>FFan",
+    "9ac?a4]",
+    "FANk",
+    "+%aC",
+    "b6aC",
+    "aCmx\"",
+    "AcU}",
+    "XaC\"Y",
+    "4Ac:",
+    "ACxS",
+    "(ZAC",
+    ")aCVa!Sp",
+    "eW'QVNAC",
+    "FAc+",
+    "4Ac>+z",
+    "5ACV9",
+    "\f~ac",
+    "aCLb",
+    "ACrI",
+    "aC]9!",
+    "ACg]~",
+    "Ey7ac",
+    "7acI",
+    "gPOaCJN",
+    "%4Ac-",
+    "qacX",
+    "AacY`",
+    "0aCS",
+    "%\"aCkcZ",
+    "ACSQ",
+    "AC5L",
+    "aC]X#"
+  ],
+  "iot_strings": [
+    "lIoT",
+    "ThingSmartNetworkKit"
+  ],
+  "control_strings": [
+    "LGeT",
+    "!jSet",
+    "set8A"
+  ],
+  "aws_strings": [
+    "lIoT"
+  ]
+}
