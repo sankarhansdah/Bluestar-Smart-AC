@@ -23,7 +23,7 @@ If you don't have HACS installed yet, follow the [official HACS installation gui
 4. **Select "Custom repositories"**
 5. **Click "Add"**
 6. **Fill in the details**:
-   - **Repository**: `sankarhansdah/homeassistant-bluestar-ac`
+   - **Repository**: `sankarhansdah/Bluestar-Smart-AC`
    - **Category**: `Integration`
    - **Click "Add"**
 

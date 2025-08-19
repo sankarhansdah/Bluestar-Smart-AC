@@ -9,7 +9,7 @@ We've successfully converted your working Bluestar AC web interface into a **ful
 ### **📁 Repository Files Created:**
 
 ```
-homeassistant-bluestar-ac/
+Bluestar-Smart-AC/
 ├── bluestar_ac/                    # 🏠 Integration Core
 │   ├── __init__.py                 # Main integration setup
 │   ├── const.py                    # Constants and configuration
@@ -52,7 +52,7 @@ homeassistant-bluestar-ac/
 ### **1. HACS Installation (Recommended)**
 ```bash
 # In HACS → Integrations → Custom repositories
-Repository: sankarhansdah/homeassistant-bluestar-ac
+Repository: sankarhansdah/Bluestar-Smart-AC
 Category: Integration
 ```
 

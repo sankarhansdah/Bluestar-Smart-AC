@@ -2,7 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 [![maintainer](https://img.shields.io/badge/maintainer-%40sankarhansdah-blue.svg)](https://github.com/sankarhansdah)
-[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/sankarhansdah/homeassistant-bluestar-ac)
+[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/sankarhansdah/Bluestar-Smart-AC)
 
 A **Home Assistant integration** for controlling Bluestar Smart AC units. This integration provides full control over your AC including temperature, mode, fan speed, swing, and special modes using the **exact same communication method** as the official Bluestar app.
 
@@ -29,7 +29,7 @@ A **Home Assistant integration** for controlling Bluestar Smart AC units. This i
 2. **Add this repository** to HACS:
    - Go to HACS → Integrations
    - Click the 3 dots menu → Custom repositories
-   - Add repository: `sankarhansdah/homeassistant-bluestar-ac`
+   - Add repository: `sankarhansdah/Bluestar-Smart-AC`
    - Category: Integration
 3. **Install the integration**:
    - Search for "Bluestar AC" in HACS
@@ -209,9 +209,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **GitHub Issues**: [Create an issue](https://github.com/sankarhansdah/homeassistant-bluestar-ac/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/sankarhansdah/homeassistant-bluestar-ac/discussions)
-- **Documentation**: Check the [Wiki](https://github.com/sankarhansdah/homeassistant-bluestar-ac/wiki) for detailed guides
+- **GitHub Issues**: [Create an issue](https://github.com/sankarhansdah/Bluestar-Smart-AC/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/sankarhansdah/Bluestar-Smart-AC/discussions)
+- **Documentation**: Check the [Wiki](https://github.com/sankarhansdah/Bluestar-Smart-AC/wiki) for detailed guides
 
 ## ⭐ Star This Repository
 

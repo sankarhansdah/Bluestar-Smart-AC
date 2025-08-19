@@ -1,7 +1,7 @@
 {
     "domain": "bluestar_ac",
     "name": "Bluestar AC",
-    "documentation": "https://github.com/sankarhansdah/homeassistant-bluestar-ac",
+    "documentation": "https://github.com/sankarhansdah/Bluestar-Smart-AC",
     "dependencies": [],
     "codeowners": ["@sankarhansdah"],
     "requirements": [],

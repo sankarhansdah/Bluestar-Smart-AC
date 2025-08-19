@@ -15,7 +15,7 @@ This guide will help you set up your GitHub repository to make the Bluestar AC i
 1. **Go to GitHub.com** and sign in
 2. **Click "New repository"**
 3. **Fill in the details**:
-   - **Repository name**: `homeassistant-bluestar-ac`
+   - **Repository name**: `Bluestar-Smart-AC`
    - **Description**: `Home Assistant integration for Bluestar Smart AC units`
    - **Visibility**: Public (required for HACS)
    - **Initialize with**: Check "Add a README file"
@@ -25,8 +25,8 @@ This guide will help you set up your GitHub repository to make the Bluestar AC i
 
 ```bash
 # Clone your repository
-git clone https://github.com/sankarhansdah/homeassistant-bluestar-ac.git
-cd homeassistant-bluestar-ac
+git clone https://github.com/sankarhansdah/Bluestar-Smart-AC.git
+cd Bluestar-Smart-AC
 
 # Copy all the integration files
 cp -r custom_components/bluestar_ac ./
@@ -110,7 +110,7 @@ The repository includes GitHub Actions that will:
 Your repository should now have this structure:
 
 ```
-homeassistant-bluestar-ac/
+Bluestar-Smart-AC/
 ├── bluestar_ac/                    # Integration files
 │   ├── __init__.py
 │   ├── const.py
@@ -142,7 +142,7 @@ homeassistant-bluestar-ac/
 
 1. **In Home Assistant**, go to HACS → Integrations
 2. **Add custom repository**:
-   - Repository: `sankarhansdah/homeassistant-bluestar-ac`
+   - Repository: `sankarhansdah/Bluestar-Smart-AC`
    - Category: Integration
 3. **Search for "Bluestar AC"**
 4. **Install the integration**
