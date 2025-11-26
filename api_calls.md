@@ -27,7 +27,7 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-  "auth_id": "9439614598",  // Phone number or email
+  "auth_id": "your_number/mail",  // Phone number or email
   "password": "your_password",
   "auth_type": 1            // 1 for phone, 0 for email
 }
