@@ -39,12 +39,12 @@ Content-Type: application/json
   "session": "749386b2-53d6-4d7c-8f7f-dfbfbb6e5e02",
   "user": {
     "id": "1043df4f-2edf-486b-8a41-8d839cb96c63",
-    "name": "Sankar",
-    "phone": "9439614598",
-    "email": "hansdahshankar@gmail.com",
-    "tuya_user_id": "BLSTR:1043df4f-2edf-486b-8a41-8d839cb96c63"
+    "name": "yourname",
+    "phone": "your_number",
+    "email": "your_mail",
+    "tuya_user_id": "BLSTR:1043df4f-2edf-486b-8a41-**********"
   },
-  "mi": "YTI2MzgxZGw3bXVkbzQtYXRzLmlvdC5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb206OkFLSUEyRE80TUNKSjIyNFhMRFM2Ojo3RmhBbXA5Vm1sYm5CdUtIWWRPbG1CVWJBdXNKc0RYZWVTeGVqcEFE"
+  "mi": "YTI******"
 }
 ```
 
@@ -73,7 +73,7 @@ User-Agent: com.bluestarindia.bluesmart
 {
   "things": [
     {
-      "thing_id": "24587ca091f8",
+      "thing_id": "******",
       "type": 1,
       "model_id": "da8d34d2-449f-42be-a537-6391772dfb86",
       "f_ver": "0.5.7",
